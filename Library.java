@@ -23,6 +23,7 @@ public class Library {
             ps.setString(2, title);
 
             ps.executeUpdate();
+            System.out.println("Book added successfully!");
             return true;
 
         } catch (Exception e) {
